@@ -1,0 +1,35 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.1.1'
+
+    defaultConfig {
+        applicationId "c.c.com.q"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile project(':PullToRefresh-master')
+    compile project(':SlidingMenu-master')
+    compile project(':ViewPagerIndicator-master')
+    compile project(':cniao5-shop-master')
+    compile project(':zhbj52lalala')
+    compile 'com.github.itsmechlark.android-sliding-menu:android-sliding-menu:1.0.1'
+    compile 'com.buyi.recyclerviewpagerindicator:recycler-viewpager-indicator:1.0'
+    compile 'com.jiechic.library:xUtils:2.6.14'
+}

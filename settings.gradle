@@ -1,0 +1,6 @@
+include ':app', 'SlidingMenu-master', 'PullToRefresh-master', 'cniao5-shop-master'
+include ':ViewPagerIndicator-master'
+include ':slidingMenuLibrary'
+include ':viewPagerIndicatorLibrary'
+include ':xUtilsLibrary'
+include ':zhbj52lalala'

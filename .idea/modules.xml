@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PullToRefresh-master/PullToRefresh-master.iml" filepath="$PROJECT_DIR$/PullToRefresh-master/PullToRefresh-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q.iml" filepath="$PROJECT_DIR$/Q.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SlidingMenu-master/SlidingMenu-master.iml" filepath="$PROJECT_DIR$/SlidingMenu-master/SlidingMenu-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewPagerIndicator-master/ViewPagerIndicator-master.iml" filepath="$PROJECT_DIR$/ViewPagerIndicator-master/ViewPagerIndicator-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cniao5-shop-master/cniao5-shop-master.iml" filepath="$PROJECT_DIR$/cniao5-shop-master/cniao5-shop-master.iml" />
+    </modules>
+  </component>
+</project>
